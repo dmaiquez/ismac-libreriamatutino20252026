@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 // @Repository esta anotacion es para hacer a la clase que sea bean
 public interface ClienteDAO extends JpaRepository<Cliente, Integer> {
 
-    Cliente findByNombreAndApellido(int id);
+        //    Cliente findByNombreAndApellido(int id);
 
 }

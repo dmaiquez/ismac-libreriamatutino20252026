@@ -1,4 +1,4 @@
-package com.distribuida.libreria1;
+package com.distribuida;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
