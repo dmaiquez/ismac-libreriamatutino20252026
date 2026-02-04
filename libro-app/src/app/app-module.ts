@@ -14,11 +14,14 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule} from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { LibroComponent } from './components/libro/libro';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
     App,
-    ClienteComponent
+    ClienteComponent,
+    LibroComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatInputModule,
     MatFormFieldModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule
 
   ],
   providers: [
